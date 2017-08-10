@@ -12,113 +12,118 @@
     <div class="container">
       <h1>Snow Wear Inc.</h1>
       <h2>Checkout</h2>
-      <form id="onlineMarket">
-<!--dummy cart-->
-        <div class="form-group">
-          <div class="cart">
-            <h3>Items in Cart:</h3>
-            <ol id="cartList">
-              <li>Goggles <span>$79.99</span></li>
-              <li>Snowboarding Pants <span>$109.99</span></li>
-              <li>Snowboarding Jacket <span>$199.99</span></li>
-              <li>Snowboard <span>$399.99</span></li>
-              <li>Gloves <span>$49.99</span></li>
-              <li>Kids Sled <span>$39.99</span></li>
-              <li>Heat Pads <span>$12.99</span></li>
-            </ol>
+      <div>
+        <form id="onlineMarket">
+  <!--dummy cart-->
+          <div class="cl">
+            <div class="cart">
+              <h3>Items in Cart:</h3>
+              <ol id="cartList">
+                <li>Goggles <span>$79.99</span></li>
+                <li>Snowboarding Pants <span>$109.99</span></li>
+                <li>Snowboarding Jacket <span>$199.99</span></li>
+                <li>Snowboard <span>$399.99</span></li>
+                <li>Gloves <span>$49.99</span></li>
+                <li>Kids Sled <span>$39.99</span></li>
+                <li>Heat Pads <span>$12.99</span></li>
+              </ol>
 
-              <p>Subtotal:<span>$892.93</span></p>
-              <p>tax:<span>$89.29</span></p>
-              <p>Total:<span>$982.22</span></p>
+                <p>Subtotal:<span>$892.93</span></p>
+                <p>tax:<span>$89.29</span></p>
+                <p>Total:<span>$982.22</span></p>
+            </div>
           </div>
-        </div>
-        <h3>Customer Information</h3>
+          <h3>Customer Information</h3>
+
 <!--name entry-->
-        <div class="form-group">
-          <lable for="firstName">First Name:</lable>
-          <input id="firstName" type="text" class="form-control">
-        </div>
-        <div class="form-group">
-          <lable for="lastName">Last Name:</lable>
-          <input id="lastName" type="text" class="form-control">
-        </div>
+          <div class="form-group">
+            <label for="firstName">First Name:</label>
+            <input id="firstName" type="text" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="lastName">Last Name:</label>
+            <input id="lastName" type="text" class="form-control">
+          </div>
 <!--address entry-->
-        <div class="form-group">
-          <lable for="address">Street Address:</lable>
-          <input id="address" type="text" class="form-control">
-        </div>
-        <div class="form-group">
-          <lable for="city">City:</lable>
-          <input id="city" type="text" class="form-control">
-        </div>
+          <div class="form-group">
+            <label for="address">Street Address:</label>
+            <input id="address" type="text" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="city">City:</label>
+            <input id="city" type="text" class="form-control">
+          </div>
 <!--state drop down-->
-        <!-- <div class="form-group">
-          <label for="state">State:</label>
-          <select id="state" class="form-control">
-          	<option value="AL">Alabama</option>
-          	<option value="AK">Alaska</option>
-          	<option value="AZ">Arizona</option>
-          	<option value="AR">Arkansas</option>
-          	<option value="CA">California</option>
-          	<option value="CO">Colorado</option>
-          	<option value="CT">Connecticut</option>
-          	<option value="DE">Delaware</option>
-          	<option value="DC">District Of Columbia</option>
-          	<option value="FL">Florida</option>
-          	<option value="GA">Georgia</option>
-          	<option value="HI">Hawaii</option>
-          	<option value="ID">Idaho</option>
-          	<option value="IL">Illinois</option>
-          	<option value="IN">Indiana</option>
-          	<option value="IA">Iowa</option>
-          	<option value="KS">Kansas</option>
-          	<option value="KY">Kentucky</option>
-          	<option value="LA">Louisiana</option>
-          	<option value="ME">Maine</option>
-          	<option value="MD">Maryland</option>
-          	<option value="MA">Massachusetts</option>
-          	<option value="MI">Michigan</option>
-          	<option value="MN">Minnesota</option>
-          	<option value="MS">Mississippi</option>
-          	<option value="MO">Missouri</option>
-          	<option value="MT">Montana</option>
-          	<option value="NE">Nebraska</option>
-          	<option value="NV">Nevada</option>
-          	<option value="NH">New Hampshire</option>
-          	<option value="NJ">New Jersey</option>
-          	<option value="NM">New Mexico</option>
-          	<option value="NY">New York</option>
-          	<option value="NC">North Carolina</option>
-          	<option value="ND">North Dakota</option>
-          	<option value="OH">Ohio</option>
-          	<option value="OK">Oklahoma</option>
-          	<option value="OR">Oregon</option>
-          	<option value="PA">Pennsylvania</option>
-          	<option value="RI">Rhode Island</option>
-          	<option value="SC">South Carolina</option>
-          	<option value="SD">South Dakota</option>
-          	<option value="TN">Tennessee</option>
-          	<option value="TX">Texas</option>
-          	<option value="UT">Utah</option>
-          	<option value="VT">Vermont</option>
-          	<option value="VA">Virginia</option>
-          	<option value="WA">Washington</option>
-          	<option value="WV">West Virginia</option>
-          	<option value="WI">Wisconsin</option>
-          	<option value="WY">Wyoming</option>
-          </select>
-        </div> -->
+          <div class="form-group">
+            <label for="state">State:</label>
+            <select id="state" class="form-control">
+            	<option value="AL">Alabama</option>
+            	<option value="AK">Alaska</option>
+            	<option value="AZ">Arizona</option>
+            	<option value="AR">Arkansas</option>
+            	<option value="CA">California</option>
+            	<option value="CO">Colorado</option>
+            	<option value="CT">Connecticut</option>
+            	<option value="DE">Delaware</option>
+            	<option value="DC">District Of Columbia</option>
+            	<option value="FL">Florida</option>
+            	<option value="GA">Georgia</option>
+            	<option value="HI">Hawaii</option>
+            	<option value="ID">Idaho</option>
+            	<option value="IL">Illinois</option>
+            	<option value="IN">Indiana</option>
+            	<option value="IA">Iowa</option>
+            	<option value="KS">Kansas</option>
+            	<option value="KY">Kentucky</option>
+            	<option value="LA">Louisiana</option>
+            	<option value="ME">Maine</option>
+            	<option value="MD">Maryland</option>
+            	<option value="MA">Massachusetts</option>
+            	<option value="MI">Michigan</option>
+            	<option value="MN">Minnesota</option>
+            	<option value="MS">Mississippi</option>
+            	<option value="MO">Missouri</option>
+            	<option value="MT">Montana</option>
+            	<option value="NE">Nebraska</option>
+            	<option value="NV">Nevada</option>
+            	<option value="NH">New Hampshire</option>
+            	<option value="NJ">New Jersey</option>
+            	<option value="NM">New Mexico</option>
+            	<option value="NY">New York</option>
+            	<option value="NC">North Carolina</option>
+            	<option value="ND">North Dakota</option>
+            	<option value="OH">Ohio</option>
+            	<option value="OK">Oklahoma</option>
+            	<option value="OR">Oregon</option>
+            	<option value="PA">Pennsylvania</option>
+            	<option value="RI">Rhode Island</option>
+            	<option value="SC">South Carolina</option>
+            	<option value="SD">South Dakota</option>
+            	<option value="TN">Tennessee</option>
+            	<option value="TX">Texas</option>
+            	<option value="UT">Utah</option>
+            	<option value="VT">Vermont</option>
+            	<option value="VA">Virginia</option>
+            	<option value="WA">Washington</option>
+            	<option value="WV">West Virginia</option>
+            	<option value="WI">Wisconsin</option>
+            	<option value="WY">Wyoming</option>
+            </select>
+          </div>
 <!--zip entry-->
-        <div class="form-group">
-          <label for="zip">zip code:</label>
-          <input id="zip" type="text" class="form-control">
-        </div>
-        <div class="group-form">
-          <input class="submit" type="submit" name="submit-button">
-        </div>
-      </form>
+<!--zip entry-->
+          <div class="form-group">
+            <label for="zip">zip code:</label>
+            <input id="zip" type="text" class="form-control">
+          </div>
+          <div class="submit">
+            <input class="submit" type="submit" name="submit-button">
+          </div>
+        </form>
+      </div>
 <!--empty container for reciept-->
       <div class="output">
+        <input class="okSubmit" type="text" name="ok-summit">
       </div>
     </div>
   </body>
