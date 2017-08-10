@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+body{
+  background-image: url("http://images.8tracks.com/cover/i/001/667/825/snowboard-sport-hd-wallpaper-1920x1200-6273-1700.jpg?rect=0,0,1200,1200&q=98&fm=jpg&fit=max&w=1024&h=1024");
+  background-size: 100% 100%;
+}
+h1{
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  font-weight: bold;
+  font-size: 100px;
+  color: aqua;
+}
+
+h2{
+  color: white;
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+}
+
+span{
+  margin-right: 50px;
+  float: right;
+}
+
+p{
+  margin-left: 70%;
+}
+
+.container{
+  width: 600px;
+  height: 1000px;
+  margin-top: 5%;
+  margin-left: 30%;
+}
+
+#onlineMarket{
+  background-color: white;
+  border: 2px solid black;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.cart{
+  height: 350px;
+  background-color: white;
+  border: 2px solid black;
+  margin-bottom: 10px;
+}
+
+.customerInfo{
+  background-color: white;
+}
+
+.submit{
+  float: right;
+  margin-right: 20px;
+}
+
+.output{
+  background-color: white;
+}
